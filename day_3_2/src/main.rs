@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::prelude::*;
-use std::rc::Rc;
 
 fn main() -> std::io::Result<()> {
     let mut file = File::open("test.txt")?;
